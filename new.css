@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFC2D1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.img {
+    background-size: cover;
+    width: 100%;
+}
+
+.gift-card {
+    background-color: #815858;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gift-card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    text-shadow:2px 2px 5px black ;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* You can further style the gift card as needed */
